@@ -18,3 +18,9 @@ zypper install java-1_8_0-openjdk-devel
 update-alternatives --config java
 update-alternatives --config javac
 ```
+
++ Install Git Server:
+
+```
+sudo zypper install git
+```
