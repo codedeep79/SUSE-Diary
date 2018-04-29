@@ -5,3 +5,4 @@ Some things collect about SUSE
 + VMware Cloud on AWS: Include all the enterprise tools you’re familiar with including vSphere, ESXi, VSAN and NSX
 + SUSE OpenStack Cloud
 + Hybrid Cloud with AWS
++ SoftNas Cloud
