@@ -7,6 +7,7 @@ Some things collect about SUSE
 + Hybrid Cloud with AWS
 + SoftNas Cloud
 + Hesive Cloud
++ Ravello cloud
 
 
 + Install Java 8:
