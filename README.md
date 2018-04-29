@@ -7,3 +7,13 @@ Some things collect about SUSE
 + Hybrid Cloud with AWS
 + SoftNas Cloud
 + Hesive Cloud
+
+
++ Install Java 8:
+
+```
+zypper install java-1_8_0-openjdk
+zypper install java-1_8_0-openjdk-devel
+update-alternatives --config java
+update-alternatives --config javac
+```
