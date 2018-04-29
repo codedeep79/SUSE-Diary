@@ -6,7 +6,7 @@ Some things collect about SUSE
 + SUSE OpenStack Cloud
 + Hybrid Cloud with AWS
 + SoftNas Cloud
-+ Hesive Cloud
++ Hesive Cloud: Deploy .iso exist to GCP, Oracle, AWS; Build Lab Data center; Build visualization lab,...
 + Ravello cloud
 
 
