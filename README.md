@@ -36,3 +36,23 @@ update-alternatives --config javac
 ```
 sudo zypper install git
 ```
+### Docker:
+
++ Error: `Docker command can't connect to Docker daemon`
+  + `sudo service docker restart`
+  + Add user group:
+    + `sudo groupadd docker`
+    + `sudo gpasswd -a ${USER} docker`
+    + `sudo service docker restart`
++ What's AUFS?
+  + AUFS is a union filesystem, which means that it layers multiple directories on a single Linux host and presents them as a single directory. These directories are called branches in AUFS terminology, and layers in Docker terminology. The unification process is referred to a a union mount.
+  + Use the following command to verify that your kernel supports AUFS: `grep aufs /proc/filesystems`
+  + Install AUFS: 
+    ```
+    sudo apt-get update
+    sudo apt-get -y install linux-image-extra-$(uname -r)
+    sudo sh -c "wget -qO- https://get.docker.io/gpg | apt-key add -"
+    sudo sh -c "echo deb http://get.docker.io/ubuntu docker main\ &gt; /etc/apt/sources.list.d/docker.list"
+    sudo apt-get update
+    sudo apt-get -y install lxc-docker
+    ```
