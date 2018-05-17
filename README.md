@@ -56,3 +56,4 @@ sudo zypper install git
     sudo apt-get update
     sudo apt-get -y install lxc-docker
     ```
++ [Run GUI App with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
