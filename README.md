@@ -57,3 +57,7 @@ sudo zypper install git
     sudo apt-get -y install lxc-docker
     ```
 + [Run GUI App with Docker](http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/)
++ Phân biệt Virtualization Station, Container Station và Linux Station
+  + Virtualization Station: Đưa giao diện desktop hệ điều hành lên cloud để dễ dùng và dễ quản lý nhiều máy ảo
+  + Container Station: Tích hợp LXC và Docker công nghệ ảo hóa lightweight, cho phép bạn vận hành nhiều hệ thống Linux trên server cũng như các ứng dụng tải về từ built-in Docker ® Hub Registry.
+  + Linux Station: Dễ truy cập vào các dịch vụ hệ điều hành Linux. Bạn có thể chọn các dịch vụ của hệ thống Linux để sử dụng ( Ubuntu add-on, Fedora add-on và Debian add-on) và tận hưởng các ứng dụng đa dạng và tính năng phong phú Linux.
